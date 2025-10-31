@@ -3,7 +3,7 @@ import type { Experience } from "../types";
 import { useNavigate } from "react-router-dom";
 
 interface Props {
-    experience: Experience;
+    experience:  Experience;
 }
 
 const ExperienceCard: React.FC<Props> = ({ experience }) => {
